@@ -1,0 +1,16 @@
+Commands to run at the start of your project (Make sure to add this file to .gitignore)
+**In WeekThreeTemplate Directory, run:**
+1. dotnet restore
+2. dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0
+3. dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
+4. dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0
+
+Notes:
+Change all file and folder names (watch casing -- s or no s, that is the ????)
+Change class, context and namespace names in all files (watch casing ^)
+Don't go alone, cmd/ctrl f "template" is your friend here
+Change DbContext on line 28 of Startup.cs
+Change database and password on line 3 appsettings.json
+Uncomment appsettings.json and commands.txt in .gitignore (or delete this file when you're done with it)
+
+CSS not working? Try deleteing and recreating wwwroot folder
