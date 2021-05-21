@@ -53,6 +53,7 @@ _Please reach out through my GitHub account._
 - C#
 - .NET 5 SDK
 - ASP.NET
+- Entity Framework Core
 - Bootstrap
 
 ### License
