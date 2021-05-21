@@ -32,6 +32,9 @@ Project Description.
 5. To run the console app:
    - Navigate to `{Template.Solution/WeekThreeTemplate}` in your command line
    - Run the command `dotnet restore` to restore the dependencies that are listed in `{Template.csproj}`
+   - Run the command `dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0`
+   - Run the command `dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2`
+   - Run the command `dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0`
    - Run the command `dotnet build` to build the project and its dependencies into a set of binaries
    - Finally, run the command `dotnet run` to run the project!
    - Note: `dotnet run` also restores and builds the project, so you can use this single command to start the console app
