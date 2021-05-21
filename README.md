@@ -37,7 +37,7 @@ Project Description.
      - `CREATE DATABASE tiffany_greathead;` to make a new database
      - `USE tiffany_greathead;` to connect to the new database
      - `CREATE TABLE {template_category (TemplateCategory INT, SomeProperty VARCHAR (255))};` to create a `{template_category}` table
-     - `CREATE TABLE {template_item (TemplateItemId INT, TemplateCategoryId Int)};` to create a new `{template_item}` table
+     - `CREATE TABLE {template_item (TemplateItemId INT, TemplateCategoryId Int)};` to create another new `{template_item}` table
 5. To run the console app:
    - Navigate to `{Template.Solution/WeekThreeTemplate}` in your command line
    - Run the command `dotnet restore` to restore the dependencies that are listed in `{Template.csproj}`
