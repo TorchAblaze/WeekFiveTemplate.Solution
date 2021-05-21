@@ -23,7 +23,16 @@ Project Description.
 2. Navigate to the `{Template.Solution}` directory on your computer
 3. Open with your preferred text editor to view the code base
 4. To setup a SQL database using MySQL:
-   - Open your terminal and run the command: `mysql -uroot -pmysql_password` (replace `mysql_password` with your MySQL password) and select the enter key to launch MySQL servers
+   - Create an `appsettings.json` file in the `{WeekThreeTemplate}` directory
+   - Copy the text box below and paste into the `appsettings.json` file, replacing `<password>` with your MySQL password:
+   ```
+     {
+        "ConnectionStrings": {
+           "DefaultConnection": "Server=localhost;Port=3306;database={week_three_template};uid=root;pwd=<password>;"
+         }
+     }
+   ```
+   - Open your terminal and run the command: `mysql -uroot -p<mysql_password>` (replace `<mysql_password>` with your MySQL password) and select the enter key to launch MySQL servers
    - Type the following commands to setup the database:
      - `CREATE DATABASE firstname_lastname;` to make a new database
      - `USE firstname_lastname;` to connect to the new database
