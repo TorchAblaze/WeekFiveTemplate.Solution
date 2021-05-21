@@ -22,8 +22,8 @@ Project Description.
 1. Clone the repository: `$ git clone {clone link}`
 2. Navigate to the `{Template.Solution}` directory on your computer
 3. Open with your preferred text editor to view the code base
-4. To setup a database using MySQL:
-   - Open your terminal and run the command: `mysql -uroot -pmysql_password_here` (replace `mysql_password_here` with your MySQL password) and select the enter key to launch MySQL servers
+4. To setup a SQL database using MySQL:
+   - Open your terminal and run the command: `mysql -uroot -pmysql_password` (replace `mysql_password` with your MySQL password) and select the enter key to launch MySQL servers
    - Type the following commands to setup the database:
      - `CREATE DATABASE firstname_lastname;` to make a new database
      - `USE firstname_lastname;` to connect to the new database
