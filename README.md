@@ -28,14 +28,14 @@ Project Description.
    ```
      {
         "ConnectionStrings": {
-           "DefaultConnection": "Server=localhost;Port=3306;database={week_three_template};uid=root;pwd=<password>;"
+           "DefaultConnection": "Server=localhost;Port=3306;database=tiffany_greathead;uid=root;pwd=<password>;"
          }
      }
    ```
    - Open your terminal and run the command: `mysql -uroot -p<mysql_password>` (replace `<mysql_password>` with your MySQL password) and select the enter key to launch MySQL servers
    - Type the following commands to setup the database:
-     - `CREATE DATABASE firstname_lastname;` to make a new database
-     - `USE firstname_lastname;` to connect to the new database
+     - `CREATE DATABASE tiffany_greathead;` to make a new database
+     - `USE tiffany_greathead;` to connect to the new database
      - `CREATE TABLE {template_category (TemplateCategory INT, SomeProperty VARCHAR (255))};` to create a `{template_category}` table
      - `CREATE TABLE {template_item (TemplateItemId INT, TemplateCategoryId Int)};` to create a new `{template_item}` table
 5. To run the console app:
