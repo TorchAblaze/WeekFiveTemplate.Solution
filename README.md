@@ -25,10 +25,10 @@ Project Description.
 4. To setup a database using MySQL:
    - Open your terminal and type: `mysql -uroot -pyour_password_here` (replace `your_password_here` with your MySQL password) and select the enter key
    - Type the following commands to setup the database:
-     - > `CREATE DATABASE firstname_lastname;`
-     - > `USE firstname_lastname;`
-     - > `CREATE TABLE template_category (TemplateCategory INT, SomeProperty VARCHAR (255));`
-     - > `CREATE TABLE template_item (TemplateItemId INT, TemplateCategoryId Int);`
+     - `CREATE DATABASE firstname_lastname;`
+     - `USE firstname_lastname;`
+     - `CREATE TABLE template_category (TemplateCategory INT, SomeProperty VARCHAR (255));`
+     - `CREATE TABLE template_item (TemplateItemId INT, TemplateCategoryId Int);`
 5. To run the console app:
    - Navigate to `{Template.Solution/WeekThreeTemplate}` in your command line
    - Run the command `dotnet restore` to restore the dependencies that are listed in `{Template.csproj}`
