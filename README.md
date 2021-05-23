@@ -63,6 +63,7 @@ _Please reach out through my GitHub account._
 - .NET 5 SDK
 - ASP.NET
 - Entity Framework Core
+- MySQL
 - Bootstrap
 
 ### License
