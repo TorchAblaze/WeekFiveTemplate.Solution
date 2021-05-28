@@ -6,7 +6,7 @@ Change DbContext on line 28 of Startup.cs
 Change database and password on line 3 appsettings.json
 Uncomment appsettings.json and commands.txt in .gitignore (or delete this file when you're done with it)
 Add .gitignore and and commit it
-Update README.md INCLUDING YOUR NAME ON LINES 5, 31, AND 70
+Update README.md INCLUDING YOUR NAME ON LINES 5, 31, 74 AND 97
 
 Commands to run at the start of your project (Make sure to add this file to .gitignore)
 **In WeekFourTemplate Directory, run:**

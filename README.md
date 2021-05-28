@@ -71,7 +71,7 @@ _Please reach out through my GitHub account._
 <pre>
 MIT License
 
-Copyright (c) 2021 Patrick Lee
+Copyright (c) 2021 Tiffany Greathead
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -94,4 +94,4 @@ SOFTWARE.
 </pre>
 </details>
 
-Copyright (c) 2021 **_Tiffany Greathead_**
+Copyright © 2021 **_Tiffany Greathead_**
