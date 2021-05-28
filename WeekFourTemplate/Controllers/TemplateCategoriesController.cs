@@ -2,15 +2,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
-using WeekThreeTemplate.Models;
+using WeekFourTemplate.Models;
 
-namespace WeekThreeTemplate.Controllers
+namespace WeekFourTemplate.Controllers
 {
   public class TemplateCategoriesController : Controller
   {
-    private readonly WeekThreeTemplateContext _db;
+    private readonly WeekFourTemplateContext _db;
 
-    public TemplateCategoriesController(WeekThreeTemplateContext db)
+    public TemplateCategoriesController(WeekFourTemplateContext db)
     {
       _db = db;
     }

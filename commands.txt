@@ -6,13 +6,16 @@ Change DbContext on line 28 of Startup.cs
 Change database and password on line 3 appsettings.json
 Uncomment appsettings.json and commands.txt in .gitignore (or delete this file when you're done with it)
 Add .gitignore and and commit it
-Update README.md
+Update README.md INCLUDING YOUR NAME ON LINES 5, 31, AND 70
 
 Commands to run at the start of your project (Make sure to add this file to .gitignore)
-**In WeekThreeTemplate Directory, run:**
+**In WeekFourTemplate Directory, run:**
 1. dotnet restore
 2. dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0
 3. dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
 4. dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0
+5. dotnet tool install --global dotnet-ef      
+6. dotnet ef database update 
+7. dotnet ef migrations add <MigrationsName>
 
 CSS not working? Try deleteing and recreating wwwroot folder

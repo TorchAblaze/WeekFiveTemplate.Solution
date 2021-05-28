@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using WeekThreeTemplate.Models;
+using WeekFourTemplate.Models;
 
-namespace WeekThreeTemplate
+namespace WeekFourTemplate
 {
   public class Startup
   {
@@ -25,7 +25,7 @@ namespace WeekThreeTemplate
       services.AddMvc();
 
       services.AddEntityFrameworkMySql()
-        .AddDbContext<WeekThreeTemplateContext>(options => options
+        .AddDbContext<WeekFourTemplateContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
     }
 
@@ -43,7 +43,7 @@ namespace WeekThreeTemplate
       
       app.Run(async (context) =>
       {
-        await context.Response.WriteAsync("WEEK THREE TEMPLATE!");
+        await context.Response.WriteAsync("WEEK FOUR TEMPLATE!");
       });
     }
   }

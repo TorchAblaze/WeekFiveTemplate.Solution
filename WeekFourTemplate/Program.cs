@@ -1,7 +1,7 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace WeekThreeTemplate
+namespace WeekFourTemplate
 {
   public class Program
   {

@@ -1,13 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace WeekThreeTemplate.Models
+namespace WeekFourTemplate.Models
 {
-  public class WeekThreeTemplateContext : DbContext
+  public class WeekFourTemplateContext : DbContext
   {
     public virtual DbSet<TemplateCategory> TemplateCategories { get; set; }
     public DbSet<TemplateItem> TemplateItems { get; set; }
-
-    public WeekThreeTemplateContext(DbContextOptions options) : base(options) { }
+    public DbSet<TemplateCategoryItem> TemplateCategoryItem { get; set; }
+    
+    public WeekFourTemplateContext(DbContextOptions options) : base(options) { }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
