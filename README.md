@@ -14,8 +14,9 @@ Project Description.
 
 - [.NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
 - A text editor like [VS Code](https://code.visualstudio.com/)
-- A command line interface like Terminal or GitBash to run and interact with the console app
-- [MySQL Community Server](https://dev.mysql.com/downloads/file/?id=484914)
+- A command line interface like Terminal or GitBash to set up and run the project
+- MySQL 8.0.19, following [these pinned installation instructions](https://web.archive.org/web/20210521163651/https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-and-configuring-mysql)
+- A web browser to view and interact with the project
 
 ### Installation
 
@@ -32,19 +33,21 @@ Project Description.
          }
      }
    ```
-   - Open your terminal and run the command: `mysql -uroot -p<mysql_password>` (replace `<mysql_password>` with your MySQL password) and select the enter key to launch MySQL servers
-5. To run the console app:
-   - Navigate to `{Template.Solution/WeekFiveTemplate}` in your command line
-   - Run the commands:
-     - `dotnet restore` to restore the dependencies that are listed in `{Template.csproj}`
-     - `dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0`
-     - `dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2`
-     - `dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0`
-     - `dotnet build` to build the project and its dependencies into a set of binaries
-     - `dotnet tool install --global dotnet-ef` to install EF Core tools
-     - `dotnet ef migrations add Initial` and `dotnet ef database update`
-   - Finally, run the command `dotnet run` to run the project!
-   - Note: `dotnet run` also restores and builds the project, so you can use this single command to start the console app
+   - Open your terminal and run the command: `mysql -uroot -p<mysql_password>` (replace `<mysql_password>` with your MySQL password) to launch MySQL server
+5. To serve the local web app:
+
+- Navigate to `{Template.Solution/WeekFiveTemplate}` in your command line
+- Run the commands:
+  - `dotnet restore` to restore the dependencies that are listed in `{Template.csproj}`
+  - `dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0`
+  - `dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2`
+  - `dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0`
+  - `dotnet build` to build the project and its dependencies into a set of binaries
+  - `dotnet tool install --global dotnet-ef` to install EF Core tools
+  - `dotnet ef database update`
+- Finally, run the command `dotnet run` to run the project!
+- Note: `dotnet run` also restores and builds the project, so you can use this single command to start the console app
+
 6. Visit the application via web browser at: `localhost:5000/`
 
 ## Known Bugs
@@ -59,10 +62,11 @@ _Please reach out through my GitHub account._
 
 - C#
 - .NET 5 SDK
-- ASP.NET Identity
+- ASP.NET Core MVC with Identity
 - Entity Framework Core
 - MySQL
 - Bootstrap
+- HTML5 with Razor syntax
 
 ### License
 
