@@ -9,13 +9,13 @@ Add .gitignore and and commit it
 Update README.md INCLUDING YOUR NAME ON LINES 5, 31, 74 AND 97
 
 Commands to run at the start of your project (Make sure to add this file to .gitignore)
-**In WeekFourTemplate Directory, run:**
+**In WeekFiveTemplate Directory, run:**
 1. dotnet restore
 2. dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0
 3. dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
-4. dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0
-5. dotnet tool install --global dotnet-ef      
-6. dotnet ef database update 
-7. dotnet ef migrations add <MigrationsName>
+4. dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0     
+5. dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore -v 5.0.0
+6. dotnet ef migrations add Initial
+7. dotnet ef database update
 
 CSS not working? Try deleteing and recreating wwwroot folder

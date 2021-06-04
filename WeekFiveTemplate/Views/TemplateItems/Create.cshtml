@@ -1,0 +1,24 @@
+@{
+  Layout = "_Layout";
+}
+
+@model WeekFiveTemplate.Models.TemplateItem
+
+<h4>Add a new task</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.SomeProperty)
+    <br>
+    @Html.TextBoxFor(model => model.SomeProperty)
+    <br>
+    <br>
+    @Html.Label("Select template category")
+    <br>
+    @Html.DropDownList("TemplateCategoryId")
+    <br>
+    <br>
+    <input type="submit" value="Add new TEMPLATE" class="btn btn-default" />
+}
+<br>
+<p>@Html.ActionLink("Show all TEMPLATES", "Index")</p>

@@ -23,7 +23,7 @@ Project Description.
 2. Navigate to the `{Template.Solution}` directory on your computer
 3. Open with your preferred text editor to view the code base
 4. To setup a SQL database using MySQL:
-   - Create an `appsettings.json` file in the `{WeekFourTemplate}` directory
+   - Create an `appsettings.json` file in the `{WeekFiveTemplate}` directory
    - Copy the text box below and paste into the `appsettings.json` file, replacing `<password>` with your MySQL password:
    ```
      {
@@ -34,7 +34,7 @@ Project Description.
    ```
    - Open your terminal and run the command: `mysql -uroot -p<mysql_password>` (replace `<mysql_password>` with your MySQL password) and select the enter key to launch MySQL servers
 5. To run the console app:
-   - Navigate to `{Template.Solution/WeekFourTemplate}` in your command line
+   - Navigate to `{Template.Solution/WeekFiveTemplate}` in your command line
    - Run the commands:
      - `dotnet restore` to restore the dependencies that are listed in `{Template.csproj}`
      - `dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0`
