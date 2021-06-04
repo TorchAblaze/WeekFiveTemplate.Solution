@@ -59,7 +59,7 @@ _Please reach out through my GitHub account._
 
 - C#
 - .NET 5 SDK
-- ASP.NET
+- ASP.NET Identity
 - Entity Framework Core
 - MySQL
 - Bootstrap
